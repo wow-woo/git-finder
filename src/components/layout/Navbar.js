@@ -6,7 +6,7 @@ const Navbar = props => {
   return (
     <nav style={{ display: "flex", justifyContent: "space-between" }}>
       <h1>
-        <Link to='/'>
+        <Link to='/' style={{ color: "#fff" }}>
           <i className={props.ico}></i>
           {props.title}
         </Link>
