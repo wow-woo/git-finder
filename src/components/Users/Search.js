@@ -39,7 +39,7 @@ const Search = () => {
         <button
           onClick={githubContex.clearUsers}
           className='block'
-          style={{ height: "30px", color: "#fff", backgroundColor: "#000" }}>
+          style={{ height: "30px", color: "#fff", backgroundColor: "#999" }}>
           Clear
         </button>
       )}
