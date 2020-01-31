@@ -71,8 +71,9 @@ a {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5%;
+  grid-gap: 5%, 5%;
   width: 100%;
+  padding-top: 10px;
 }
 .container {
   padding: 5%;
