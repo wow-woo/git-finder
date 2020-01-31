@@ -33,7 +33,12 @@ const Search = () => {
           value='Search'
           className='block'
           type='submit'
-          style={{ height: "35px", color: "#fff", backgroundColor: "#000" }}
+          style={{
+            height: "35px",
+            color: "#fff",
+            backgroundColor: "#000",
+            paddingTop: "5px"
+          }}
         />
       </form>
       {githubContex.users.length > 0 && (
