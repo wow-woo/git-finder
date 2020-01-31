@@ -21,7 +21,6 @@ nav {
           align-items: center;
   background-color: #17348e;
   color: #fff;
-  padding: 0 20px;
 }
 
 nav i {
@@ -88,11 +87,11 @@ a {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
 }
 
 .container {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .float-right {

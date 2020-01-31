@@ -13,7 +13,6 @@ nav {
   align-items: center;
   background-color: rgb(23, 52, 142);
   color: #fff;
-  padding: 0 20px;
 
   i {
     padding-right: 11px;
@@ -71,10 +70,10 @@ a {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
 }
 .container {
-  padding: 3rem;
+  padding: 2rem;
 }
 .float-right {
   float: right;
