@@ -21,6 +21,7 @@ nav {
           align-items: center;
   background-color: #17348e;
   color: #fff;
+  padding: 5%;
 }
 
 nav i {
@@ -92,7 +93,8 @@ a {
 }
 
 .container {
-  padding: 2rem;
+  padding: 5%;
+  width: 100%;
 }
 
 .float-right {
