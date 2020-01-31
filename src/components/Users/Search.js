@@ -27,19 +27,20 @@ const Search = () => {
           placeholder='Search User...'
           className='block'
           type='text'
+          style={{ height: "30px" }}
         />
         <input
           value='Search'
           className='block'
           type='submit'
-          style={{ height: "30px", color: "#fff", backgroundColor: "#000" }}
+          style={{ height: "35px", color: "#fff", backgroundColor: "#000" }}
         />
       </form>
       {githubContex.users.length > 0 && (
         <button
           onClick={githubContex.clearUsers}
           className='block'
-          style={{ height: "30px", color: "#fff", backgroundColor: "#999" }}>
+          style={{ height: "35px", color: "#fff", backgroundColor: "#999" }}>
           Clear
         </button>
       )}
