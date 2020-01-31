@@ -32,14 +32,14 @@ const Search = () => {
           value='Search'
           className='block'
           type='submit'
-          style={{ color: "#fff", backgroundColor: "#000" }}
+          style={{ height: "20px", color: "#fff", backgroundColor: "#000" }}
         />
       </form>
       {githubContex.users.length > 0 && (
         <button
           onClick={githubContex.clearUsers}
           className='block'
-          style={{ color: "#fff", backgroundColor: "#000" }}>
+          style={{ height: "20px", color: "#fff", backgroundColor: "#000" }}>
           Clear
         </button>
       )}
